@@ -15,6 +15,7 @@ export function ScrollBar() {
                     right: 0,
                     height: 10,
                     originX: 0,
+                    zIndex: 10,
                     backgroundColor: "#ff0088",
                 }}
             />

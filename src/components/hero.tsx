@@ -11,7 +11,7 @@ export function Hero() {
         delay: 0.5,
         ease: [0, 0.71, 0.2, 1.01],
       }}
-      className=" w-full p-10 rounded-2xl grid grid-cols-2 gap-4 bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
+      className=" w-full p-4 md:p-10 rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
     >
       <img alt="" src={avatarImg} className="rounded-2xl" />
       <div className="prose lg:prose-xl">
